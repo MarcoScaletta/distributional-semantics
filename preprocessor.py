@@ -16,7 +16,7 @@ class Preprocessor:
     def __init__(self):
         self.lemmatizer = WordNetLemmatizer()
         self.stopwords = set(nltk.corpus.stopwords.words('english'))
-        self.stopwords.add("%")
+        self.stopwords.add("n't")
         self.stopwords.add("mr")
         self.stopwords.add("miss")
         self.stopwords.add("mrs")
