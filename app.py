@@ -1,8 +1,6 @@
 import clusterizer
 import preprocessor
 from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np
-from scipy import sparse
 import keywordextractor
 import multiplefilereader
 
