@@ -1,14 +1,6 @@
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import CountVectorizer
 import collections
-import preprocessor
-from numpy import dot
-from numpy.linalg import norm
-import numpy as np
-from sklearn.cluster import SpectralClustering
-from sklearn.cluster import DBSCAN
-
-from sklearn.metrics.pairwise import cosine_similarity
 
 
 class Clusterizer:
